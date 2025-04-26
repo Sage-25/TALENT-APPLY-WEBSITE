@@ -255,6 +255,10 @@ footer {
 
 /* RESPONSIVE VIEW HEADER */
 @media (max-width: 1238px) {
+  header {
+    display: block;
+  }
+
   .header-nav-list {
     display: none;
   }
