@@ -89,10 +89,70 @@ nav ul li {
   color: rgb(140, 148, 156);
 }
 
+.product-trigger:hover .product-menu {
+  display: block;
+  transform: rotate();
+}
+
+.product-trigger:hover .chevron-bottom {
+  transform: rotate(-180deg);
+  transition: all 0.3s ease-in-out;
+}
+
 .menu-container {
   display: none;
   margin-block-start: 0.3rem;
 }
+
+/* PRODUCT MENU DROPDOWN MENU */
+.product-menu {
+  display: none;
+  align-items: center;
+}
+
+.product-menu-container {
+  position: absolute;
+  display: flex;
+  gap: 3rem;
+  top: 4.5rem;
+  left: 10rem;
+  background-color: white;
+  padding: 1.5rem 1.5rem;
+  box-shadow: 0 0.313rem 0.938rem rgba(27, 32, 32, 0.1);
+  border-radius: 1rem;
+}
+
+.product-menu-main {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.menu-selection {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: all;
+}
+
+.menu-selection:hover {
+  background-color: rgba(9, 103, 210, 0.1);
+  border-radius: 0.5rem;
+}
+
+.menu-header {
+  color: rgba(8, 18, 29, 1);
+  margin-block-end: 0.25rem;
+}
+
+.menu-body {
+  font-size: 0.75rem;
+  color: rgba(103, 115, 126, 1);
+}
+
+/* PRODUCT DROP DOWN MENU */
+
 
 /* THIS IS THE BUTTON SECTION */
 .header-second-section {
