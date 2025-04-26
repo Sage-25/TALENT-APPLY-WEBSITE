@@ -68,6 +68,10 @@
     max-width: none;
   }
 
+  .fifth-image-container-middle {
+    order: -1;
+  }
+
   .fifth-button-container {
     display: grid;
     justify-content: center;
