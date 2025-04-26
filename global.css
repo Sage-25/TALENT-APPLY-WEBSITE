@@ -81,6 +81,12 @@ nav ul li {
   padding-block: 0.625rem;
   border-radius: 0.375rem;
   color: rgba(103, 115, 126, 1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out
+}
+
+.nav ul li:hover {
+  color: rgb(140, 148, 156);
 }
 
 .menu-container {
@@ -106,6 +112,12 @@ nav ul li {
   background-color: transparent;
   border: 0.031rem solid rgba(9, 103, 210, 1);
   padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.outline-button-w-icon:hover {
+  background-color: rgba(9, 103, 210, 0.1);
 }
 
 .plain-button {
@@ -113,6 +125,12 @@ nav ul li {
   background-color: transparent;
   border: 0 solid;
   padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.plain-button:hover {
+  color: rgba(9, 73, 146, 2);
 }
 
 .filled-button {
@@ -121,6 +139,12 @@ nav ul li {
   background-color: rgba(9, 103, 210, 1);
   border: 0.031rem solid rgba(9, 103, 210, 1);
   padding: 1.3rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.filled-button:hover {
+  background-color: rgba(9, 103, 210, 0.8);
 }
 
 .outline-button-black {
@@ -129,6 +153,12 @@ nav ul li {
   border: 0.031rem solid rgba(8, 18, 29, 1);
   padding: 1rem 1.5rem;
   border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.outline-button-black:hover {
+  background-color: rgba(9, 103, 210, 0.1);
 }
 
 .outline-button-white {
@@ -137,6 +167,12 @@ nav ul li {
   border: 0.031rem solid white;
   padding: 1rem 1.5rem;
   border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.outline-button-white:hover {
+  background-color: rgba(146, 187, 233, 0.1);
 }
 
 /* SIXTH SECTION ITERATION */

@@ -1,6 +1,12 @@
 .home-trigger {
   background-color: rgba(9, 103, 210, 1);
   color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-trigger:hover {
+  background-color: rgba(9, 103, 210, 0.8);
 }
 
 /* HERO SECTION ITERATION */

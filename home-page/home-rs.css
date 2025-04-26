@@ -4,6 +4,12 @@
   }
 }
 
+@media (max-width: 376px) {
+  .hero-section-container {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 800px) {
   .hero-section {
     padding-block: 2.5rem;
