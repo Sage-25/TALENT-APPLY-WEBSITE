@@ -359,12 +359,12 @@ footer {
 
 /* BUTTON MEDIA QUARY  */
 @media (max-width: 800px) {
-  /* .outline-button-w-icon {
-    padding: 1rem 7rem;
+  .outline-button-w-icon {
+    padding: 1rem 4rem;
   }
 
   .filled-button {
-    padding: 1.3rem 8.5rem;
+    padding: 1.3rem 5.5rem;
   }
 
   .outline-button-black {
@@ -374,4 +374,4 @@ footer {
   .outline-button-white {
     padding: 1rem 4rem;
   }
-} */
+}
