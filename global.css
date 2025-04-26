@@ -23,6 +23,7 @@ div {
 main {
   display: grid;
   justify-content: center;
+  margin-inline: 2rem;
 }
 
 section {
@@ -68,6 +69,9 @@ nav ul {
 }
 
 nav ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   background-color: white;
   padding-inline: 1rem;
   padding-block: 0.625rem;
@@ -125,7 +129,110 @@ nav ul li {
 .outline-button-white {
   color: white;
   background-color: transparent;
-  border: 0.031rem solid rgba(8, 18, 29, 1);
+  border: 0.031rem solid white;
   padding: 1rem 1.5rem;
   border-radius: 0.75rem;
+}
+
+/* SIXTH SECTION ITERATION */
+.sixth-section {
+  margin-block: -10rem 6.25rem;
+}
+
+.sixth-text-container {
+  display: grid;
+  background-color: rgba(9, 103, 210, 1);
+  color: white;
+  padding: 3.313rem 2.688rem;
+  border-radius: 1.5rem;
+}
+
+.sixth-header {
+  font-weight: bold;
+  font-size: 2.125rem;
+  margin-block-end: 1.25rem;
+  width: 50%;
+}
+
+.sixth-body {
+  color: rgba(255, 255, 255, 1);
+  margin-block-end: 1.25rem;
+  width: 40%;
+}
+
+.sixth-image-container {
+  position: relative;
+  top: 20.8rem;
+  right: 8rem;
+  text-align: end;
+}
+
+/* FOOTER SECTION ITERATION */
+footer {
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(235, 244, 252, 1));
+}
+
+.footer-section {
+  display: grid;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  gap: 6.25rem;
+  margin-block-end: 6.25rem;
+  margin-inline: 2rem;
+  max-width: 80rem;
+}
+
+.footer-logo-text {
+  max-width: 30rem;
+}
+
+.footer-main-text {
+  color: rgba(55, 61, 67, 1);
+  margin-block-start: 0.5rem;
+  width: 100%;
+}
+
+.footer-bold-header {
+  font-weight: bold;
+  color: rgba(8, 18, 29, 1);
+  margin-block-end: 1rem;
+}
+
+.about-talent-apply,
+.products,
+.pricing,
+.blog,
+.faq,
+.contact-us,
+.early-access,
+.terms-and-conditions,
+.privacy-policy {
+  display: grid;
+  text-decoration: none;
+  color: rgba(55, 61, 67, 1);
+  margin-block-end: 1rem;
+}
+
+.social-platforms {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-line {
+  border: 0.031rem solid rgba(232, 237, 242, 1);
+  margin-block: 2.5rem;
+}
+
+.footer-bottom-information {
+  text-align: center;
+  color: rgba(85, 89, 115, 1);
+}
+
+.footer-final-line {
+  padding-block-end: 5rem;
 }
