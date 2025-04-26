@@ -10,6 +10,7 @@
   justify-items: center;
   padding-block: 5.25rem;
   background: linear-gradient(rgba(192, 217, 242, 1), rgba(255, 255, 255, 0) );
+  padding-inline: 2rem;
 }
 
 .hero-section-container {
@@ -89,7 +90,7 @@
   gap: 2rem;
 }
 
-/* SECOND SECTION ITERATION */
+/* THIRD SECTION ITERATION */
 .third-section-container {
   display: grid;
   background-color: rgba(9, 103, 210, 1);
@@ -169,11 +170,11 @@
   display: grid;
   justify-items: center;
   gap: 6.25rem;
+  margin-block-end: 4.375rem;
 }
 
 .fifth-section-header-container {
   display: grid;
-  /* margin-block-end: 2rem; */
   max-width: 30rem;
 }
 
@@ -197,7 +198,6 @@
   grid-template-columns: auto 1fr;
   align-items: center;
   gap: 2.875rem;
-  /* margin-block-end: 6.25rem; */
 }
 
 .fifth-section-container-two {
@@ -205,7 +205,6 @@
   grid-template-columns: 1fr auto;
   align-items: center;
   gap: 2.875rem;
-  /* margin-block-end: 6.25rem; */
 }
 
 .fifth-header {
@@ -223,6 +222,16 @@
 .colour-change-blue {
   font-weight: bold;
   color: rgba(26, 119, 224, 1);
+}
+
+.fifth-image-container,
+.fifth-image-container-middle {
+  max-width: 36.5rem;
+}
+
+.fifth-image,
+.fifth-image-middle {
+  width: 100%;
 }
 
 /* SEVENTH SECTION INTERATION */

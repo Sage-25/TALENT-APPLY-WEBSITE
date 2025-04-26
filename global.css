@@ -56,6 +56,10 @@ nav {
   gap: 1.875rem;
 }
 
+.talent-apply-logo {
+  margin-inline-end: auto;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
@@ -81,6 +85,7 @@ nav ul li {
 
 .menu-container {
   display: none;
+  margin-block-start: 0.3rem;
 }
 
 /* THIS IS THE BUTTON SECTION */
@@ -136,35 +141,44 @@ nav ul li {
 
 /* SIXTH SECTION ITERATION */
 .sixth-section {
-  margin-block: -10rem 6.25rem;
-}
-
-.sixth-text-container {
   display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 6rem;
   background-color: rgba(9, 103, 210, 1);
   color: white;
   padding: 3.313rem 2.688rem;
   border-radius: 1.5rem;
+  margin-block: 6.25rem;
+  position: relative;
+}
+
+.sixth-text-container {
+  max-width: 35rem;
 }
 
 .sixth-header {
   font-weight: bold;
   font-size: 2.125rem;
   margin-block-end: 1.25rem;
-  width: 50%;
+  width: 100%;
 }
 
 .sixth-body {
   color: rgba(255, 255, 255, 1);
   margin-block-end: 1.25rem;
-  width: 40%;
+  width: 100%;
 }
 
 .sixth-image-container {
-  position: relative;
-  top: 20.8rem;
-  right: 8rem;
-  text-align: end;
+  position: absolute;
+  bottom: -0.3rem;
+  right: 5rem;
+  max-width: 26.375rem;
+}
+
+.sixth-image {
+  width: 100%;
 }
 
 /* FOOTER SECTION ITERATION */
@@ -231,8 +245,80 @@ footer {
 .footer-bottom-information {
   text-align: center;
   color: rgba(85, 89, 115, 1);
+  padding-inline: 2rem;
 }
 
 .footer-final-line {
   padding-block-end: 5rem;
+}
+
+
+/* RESPONSIVE VIEW HEADER */
+@media (max-width: 1238px) {
+  .header-nav-list {
+    display: none;
+  }
+
+  .talent-apply-logo {
+    margin-inline-end: auto ;
+  }
+
+  .header-second-section {
+    display: none;
+  }
+
+  .menu-container {
+    display: inline-block;
+  }
+}
+
+/* RESPONSIVE VIEW FOR FOOTER */
+@media (max-width: 800px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 2rem;
+    margin-block-end: 2.5rem;
+  }
+
+  .footer-line {
+    margin-block: 1rem;
+  }
+
+  .footer-section {
+    justify-content: none;
+  }
+}
+
+/* SIXTH SECTION RESPONSIVE VIEW */
+@media (max-width: 1102px) {
+  .sixth-header {
+    font-size: 1.25rem;
+  }
+
+  .sixth-section {
+    grid-template-columns: none;
+    gap: 2rem;
+    position: none;
+    padding: 2rem 1rem;
+    border-radius: 1.5rem;
+    margin-block: 2rem;
+  }
+
+  .sixth-image-container {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    max-width: none;
+  }
+}
+
+/* BUTTON MEDIA QUARY  */
+@media (max-width: 800px) {
+  .outline-button-w-icon {
+    padding: 1rem 7rem;
+  }
+
+  .filled-button {
+    padding: 1.3rem 8.5rem;
+  }
 }

@@ -1,0 +1,84 @@
+@media (max-width: 1216px) {
+  .margue-logo-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero-section {
+    padding-block: 2.5rem;
+  }
+
+  .hero-header-text {
+    font-size: 1.625rem;
+  }
+
+  .hero-header-buttons {
+    flex-direction: column;
+  }
+
+  .hero-header-main-container {
+    margin-block-end: 2rem;
+  }
+
+  .third-section-container {
+    padding: 1.75rem 0.75rem;
+    font-size: 1.25rem;
+    margin-block-end: 2.5rem;
+  }
+
+  .fourth-section {
+    grid-template-columns: auto;
+    margin-block-end: 2.5rem;
+  }
+  
+  .fourth-section-header {
+    font-size: 1.25rem;
+  }
+
+  .fourth-section-image-container {
+    max-width: none;
+  }
+
+  .fourth-check-section {
+    grid-template-columns: auto;
+  }
+
+  .fifth-section-header {
+    font-size: 1.25rem;
+  }
+
+  .fifth-section-container-one,
+  .fifth-section-container-two {
+    grid-template-columns: auto;
+  }
+
+  .fifth-section-main-container {
+    gap: 2rem;
+  }
+
+  .fifth-image-container,
+  .fifth-image-container-middle {
+    max-width: none;
+  }
+
+  .seventh-section {
+    margin-block-end: 2.5rem;
+  }
+
+  .seventh-header {
+    font-size: 1.25rem;
+  }
+
+  .eight-header {
+    font-size: 1.25rem;
+  }
+
+  .eight-section {
+    margin-block-end: 2.5rem;
+  }
+
+  .review-container-main {
+    flex-direction: column;
+  }
+}
