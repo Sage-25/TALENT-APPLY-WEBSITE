@@ -62,6 +62,11 @@
     max-width: none;
   }
 
+  .fifth-button-container {
+    display: grid;
+    justify-content: center;
+  }
+
   .seventh-section {
     margin-block-end: 2.5rem;
   }

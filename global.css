@@ -314,6 +314,11 @@ footer {
     right: 0;
     max-width: none;
   }
+
+  .sixth-button-container {
+    display: grid;
+    justify-content: center;
+  }
 }
 
 /* BUTTON MEDIA QUARY  */
@@ -324,5 +329,13 @@ footer {
 
   .filled-button {
     padding: 1.3rem 8.5rem;
+  }
+
+  .outline-button-black {
+    padding: 1rem 5rem;
+  }
+
+  .outline-button-white {
+    padding: 1rem 4rem;
   }
 }
