@@ -1,0 +1,131 @@
+h1,
+p,
+a,
+button,
+input,
+textarea,
+div {
+  margin: 0;
+  padding: 0;
+  font-family: Rethink Sans;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+main {
+  display: grid;
+  justify-content: center;
+}
+
+section {
+  max-width: 80rem;
+}
+
+/* THIS IS FOR THE NAVIGATION BAR STYLING */
+header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-bottom: 0.031rem solid rgba(232, 237, 242, 1);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80rem;
+  gap: 5rem;
+  margin-block: 1.25rem;
+  margin-inline: 2rem;
+}
+
+.header-first-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: auto;
+  list-style: none;
+  gap: 1.5rem;
+  background-color: white;
+  padding: 0.313rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 0.938rem rgba(27, 32, 32, 0.05);
+}
+
+nav ul li {
+  background-color: white;
+  padding-inline: 1rem;
+  padding-block: 0.625rem;
+  border-radius: 0.375rem;
+  color: rgba(103, 115, 126, 1);
+}
+
+.menu-container {
+  display: none;
+}
+
+/* THIS IS THE BUTTON SECTION */
+.header-second-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.outline-button-w-icon {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 0.75rem;
+  color: rgba(9, 103, 210, 1);
+  background-color: transparent;
+  border: 0.031rem solid rgba(9, 103, 210, 1);
+  padding: 1rem 1.5rem;
+}
+
+.plain-button {
+  color: rgba(9, 103, 210, 1);
+  background-color: transparent;
+  border: 0 solid;
+  padding: 1rem 1.5rem;
+}
+
+.filled-button {
+  border-radius: 0.75rem;
+  color: white;
+  background-color: rgba(9, 103, 210, 1);
+  border: 0.031rem solid rgba(9, 103, 210, 1);
+  padding: 1.3rem 1.5rem;
+}
+
+.outline-button-black {
+  color: rgba(8, 18, 29, 1);
+  background-color: transparent;
+  border: 0.031rem solid rgba(8, 18, 29, 1);
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.outline-button-white {
+  color: white;
+  background-color: transparent;
+  border: 0.031rem solid rgba(8, 18, 29, 1);
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+}
