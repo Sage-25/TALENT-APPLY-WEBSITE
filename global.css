@@ -8,6 +8,8 @@ div {
   margin: 0;
   padding: 0;
   font-family: Rethink Sans;
+  text-decoration: none;
+  color: inherit;
 }
 
 * {
@@ -131,7 +133,7 @@ nav ul li {
   display: flex;
   align-items: center;
   gap: 0.625rem;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   cursor: pointer;
   transition: all;
 }
