@@ -1,0 +1,21 @@
+@media (max-width: 800px) {
+  .hero-header-text {
+    font-size: 1.625rem;
+  }
+  
+  .fourth-key-feature-container-main,
+  .fourth-key-feature-container-main-one {
+    grid-template-columns: none;
+    gap: 1.125rem;
+  }
+
+  .fourth-container-header {
+    font-size: 1.625rem;
+  }
+
+  .third-section-container {
+    padding: 1.75rem 0.75rem;
+    font-size: 1.25rem;
+    margin-block-end: 2.5rem;
+  }
+}
