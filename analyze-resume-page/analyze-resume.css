@@ -14,7 +14,7 @@
   display: grid;
   justify-items: center;
   padding-block: 5.25rem;
-  background: linear-gradient(rgba(192, 242, 207, 1), rgba(255, 255, 255, 0) );
+  background: linear-gradient(rgba(239, 242, 192, 1), rgba(255, 255, 255, 0) );
   padding-inline: 2rem;
   max-width: 100%;
 }
@@ -114,4 +114,61 @@
 
 .f-text-body {
   color: rgba(103, 115, 126, 1);
+}
+
+/* FIFTH-SECTION ITERATION */
+.fifth-section {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 2.125rem;
+  margin-block-end: 5rem;
+}
+
+.fifth-section-header {
+  font-weight: bold;
+  font-size: 2.125rem;
+  color: rgba(8, 18, 29, 1);
+  margin-block-end: 1rem;
+}
+
+.fifth-section-body {
+  color: rgba(103, 115, 126, 1);
+  margin-block-end: 1rem;
+}
+
+.how-it-works-container-main {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.how-it-works-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+}
+
+.fst-header {
+  color: rgba(8, 18, 29, 1);
+}
+
+.fst-body {
+  color: rgba(103, 115, 126, 1);
+}
+
+.check-icons {
+  padding-block-start: 0.1rem;
+}
+
+.fst-image-container {
+  max-width: 37rem;
+}
+
+.fst-image {
+  width: 100%;
+}
+
+/* SIXTH SECTION CHANGES */
+.sixth-section {
+  margin-block-start: 10rem;
 }

@@ -173,7 +173,7 @@ nav ul li {
   color: rgba(9, 103, 210, 1);
   background-color: transparent;
   border: 0.031rem solid rgba(9, 103, 210, 1);
-  padding: 1rem 1.5rem;
+  padding: 0.9rem 1.5rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -186,7 +186,7 @@ nav ul li {
   color: rgba(9, 103, 210, 1);
   background-color: transparent;
   border: 0 solid;
-  padding: 1rem 1.5rem;
+  padding: 0.9rem 1.5rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -200,7 +200,7 @@ nav ul li {
   color: white;
   background-color: rgba(9, 103, 210, 1);
   border: 0.031rem solid rgba(9, 103, 210, 1);
-  padding: 1.3rem 1.5rem;
+  padding: 1.2rem 1.5rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -213,7 +213,7 @@ nav ul li {
   color: rgba(8, 18, 29, 1);
   background-color: transparent;
   border: 0.031rem solid rgba(8, 18, 29, 1);
-  padding: 1rem 1.5rem;
+  padding: 0.9rem 1.5rem;
   border-radius: 0.75rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -227,7 +227,7 @@ nav ul li {
   color: white;
   background-color: transparent;
   border: 0.031rem solid white;
-  padding: 1rem 1.5rem;
+  padding: 0.9rem 1.5rem;
   border-radius: 0.75rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -247,7 +247,7 @@ nav ul li {
   color: white;
   padding: 3.313rem 2.688rem;
   border-radius: 1.5rem;
-  margin-block: 6.25rem;
+  margin-block: 20rem 6.25rem;
   position: relative;
 }
 
@@ -349,7 +349,6 @@ footer {
 .footer-final-line {
   padding-block-end: 5rem;
 }
-
 
 /* RESPONSIVE VIEW HEADER */
 @media (max-width: 1238px) {

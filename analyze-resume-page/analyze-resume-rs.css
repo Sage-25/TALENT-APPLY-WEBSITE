@@ -17,4 +17,22 @@
     font-size: 1.25rem;
     margin-block-end: 2.5rem;
   }
+
+  .fourth-section {
+    margin-block-end: 2rem;
+  }
+
+  .fifth-section {
+    grid-template-columns: none;
+    align-items: center;
+    margin-block-end: 3rem;
+  }
+
+  .fst-image-container {
+    max-width: none;
+  }
+
+  .sixth-section {
+    margin-block-start: 5rem;
+  }
 }
