@@ -47,7 +47,7 @@ nav {
   justify-content: space-between;
   max-width: 80rem;
   gap: 5rem;
-  margin-block: 1.25rem;
+  margin-block: 1rem;
   margin-inline: 2rem;
 }
 
@@ -109,10 +109,13 @@ nav ul li {
   margin-block-start: 0.3rem;
 }
 
+.talent-apply-logo {
+  padding-block-start: 0.4rem;
+}
+
 /* PRODUCT MENU DROPDOWN MENU */
 .product-menu {
   display: none;
-  align-items: center;
 }
 
 .product-menu-container {
@@ -121,7 +124,7 @@ nav ul li {
   align-items: start;
   gap: 3rem;
   top: 4.2rem;
-  left: 10rem;
+  left: 20rem;
   background-color: white;
   padding: 1.5rem 1.5rem;
   box-shadow: 0 0.313rem 0.938rem rgba(27, 32, 32, 0.1);
@@ -156,9 +159,6 @@ nav ul li {
   font-size: 0.75rem;
   color: rgba(103, 115, 126, 1);
 }
-
-/* PRODUCT DROP DOWN MENU */
-
 
 /* THIS IS THE BUTTON SECTION */
 .header-second-section {
