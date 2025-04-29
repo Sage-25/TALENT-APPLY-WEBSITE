@@ -1,0 +1,117 @@
+/* .home-trigger {
+  background-color: rgba(9, 103, 210, 1);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-trigger:hover {
+  background-color: rgba(9, 103, 210, 0.8);
+} */
+
+/* HERO SECTION ITERATION */
+.hero-section {
+  display: grid;
+  justify-items: center;
+  padding-block: 5.25rem;
+  background: linear-gradient(rgba(239, 242, 192, 1), rgba(255, 255, 255, 0) );
+  padding-inline: 2rem;
+  max-width: 100%;
+}
+
+.hero-header-main-container {
+  display: grid;
+  gap: 2rem;
+  text-align: center;
+  max-width: 40rem;
+  margin-block-end: 4.563rem;
+  width: 100%;
+}
+
+.hero-header-text {
+  font-size: 2.75rem;
+  color: rgba(8, 18, 29, 1);
+  margin-block-end: 1rem;
+}
+
+.hero-body-text {
+  color: rgba(103, 115, 126, 1);
+}
+
+.hero-image-container {
+  max-width: 71.188rem;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+/* THIRD SECTION ITERATION */
+.third-section-container {
+  display: grid;
+  background-color: rgba(9, 103, 210, 1);
+  color: white;
+  padding: 5.75rem 3.125rem;
+  font-size: 1.625rem;
+  text-align: center;
+  border-radius: 1.5rem;
+  margin-block-end: 6.25rem;
+}
+
+.colour-change-yellow {
+  color: rgba(249, 231, 83, 1);
+}
+
+/* FOURTH SECTION ITERATION */
+.fourth-section {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  justify-items: center;
+  gap: 2.125rem;
+  margin-block-end: 5rem;
+}
+
+.fourth-container {
+  display: grid;
+  gap: 1rem;
+  max-width: 35em;
+}
+
+.fourth-container-header {
+  text-align: center;
+  font-size: 2.125rem;
+  font-weight: bold;
+  color: rgba(8, 18, 29, 1);
+}
+
+.fourth-container-body {
+  text-align: center;
+  color: rgba(103, 115, 126, 1);
+}
+
+.fourth-key-feature-container-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.125rem;
+}
+
+.fourth-key-feature-container {
+  display: grid;
+  gap: 1rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.f-text-header {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: rgba(8, 18, 29, 1);
+  margin-block-end: 0.5rem;
+}
+
+.f-text-body {
+  color: rgba(103, 115, 126, 1);
+}
