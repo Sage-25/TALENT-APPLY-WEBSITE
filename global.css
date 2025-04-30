@@ -340,6 +340,20 @@ footer {
   text-decoration: none;
   color: rgba(55, 61, 67, 1);
   margin-block-end: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-talent-apply:hover,
+.products:hover,
+.pricing:hover,
+.blog:hover,
+.faq:hover,
+.contact-us:hover,
+.early-access:hover,
+.terms-and-conditions:hover,
+.privacy-policy:hover {
+  color: rgba(9, 103, 210, 1);
 }
 
 .social-platforms {
