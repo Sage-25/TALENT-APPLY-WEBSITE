@@ -1,0 +1,18 @@
+@media (max-width: 800px) {
+  .hero-section {
+    padding-block: 2rem;
+    padding-inline: 2rem;
+  }
+
+  .hero-header-text {
+    font-size: 1.625rem;
+  }
+
+  .third-section {
+    flex-direction: column;
+  }
+
+  .basic-container {
+    margin-block-start: 2rem;
+  }
+}
