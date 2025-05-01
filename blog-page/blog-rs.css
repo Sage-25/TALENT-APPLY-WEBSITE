@@ -1,0 +1,39 @@
+@media (max-width: 800px) {
+  .first-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem;
+    margin-block: 2rem 3rem;
+    padding: 1rem;
+  }
+
+  .second-section {
+    grid-template-columns: none;
+  }
+
+  .blog-header {
+    font-size: 1.5rem;
+  }
+
+  .blog-image-container {
+    max-width: none;
+  }
+
+  .blog-container {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .pagination-numbers {
+    display: none;
+  }
+
+  .previous-button {
+    padding-inline: 3rem;
+  }
+
+  .next-button {
+    padding-inline: 3rem;
+  }
+  
+}

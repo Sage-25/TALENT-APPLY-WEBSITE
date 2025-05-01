@@ -1,0 +1,43 @@
+@media (max-width: 800px) {
+  .first-section {
+    margin-block: 2rem 2rem;
+  }
+
+  .second-section-header {
+    font-size: 1.8rem;
+    margin-block-start: 1.5rem ;
+  }
+
+  .third-section {
+    margin-block-end: 2rem;
+  }
+
+  .t-d-section-container {
+    grid-template-columns: none;
+    gap: 1rem;
+  }
+
+  .blog-container-main {
+    flex-direction: column;
+  }
+
+  .fourth-section {
+    gap: 1rem;
+    margin-block-end: 2rem;
+  }
+
+  .fourth-header {
+    font-size: 1.2rem;
+  }
+
+  .blog-header {
+    font-size: 1.2rem;
+  }
+
+  .blog-container {
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+  }
+  
+}

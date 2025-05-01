@@ -1,0 +1,156 @@
+/* .blog {
+  background-color: rgba(9, 103, 210, 1);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.blog:hover {
+  background-color: rgba(9, 103, 210, 0.8);
+  color: white;
+} */
+
+/* FIRST SECTION ITERATION */
+.first-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-block: 4.375rem 2rem;
+}
+
+.back-font {
+  color: rgba(8, 18, 29, 1);
+}
+
+.blog-header-image-container {
+  /* max-width: 71.25rem; */
+}
+
+.bg-header-image {
+  width: 100%;
+}
+
+
+/* SECOND SECTION ITERATION */
+.second-section {
+  display: grid;
+  gap: 1rem;
+  margin-block-end: 2rem;
+}
+
+.second-section-header {
+  font-weight: bold;
+  font-size: 2.125rem;
+  color: rgba(8, 18, 29, 1);
+  margin-block-start: 2.5rem ;
+}
+
+.t-d-section-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.blog-date-time-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.blog-dt {
+  color: rgba(103, 115, 126, 1);
+  font-size: 0.75rem;
+  width: 100%;
+}
+
+.horizontal-divider {
+  width: 0.01rem;
+  height: 0.6rem;
+  background-color: rgba(232, 237, 242, 1);
+}
+
+.logo-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* THIRD SECTION ITERATION */
+.third-section {
+  display: grid;
+  margin-block-end: 4rem;
+  gap: 2rem;
+}
+
+.blog-body-text {
+  color: rgba(103, 115, 126, 1);
+  /* margin-block-end: 2rem; */
+}
+
+.bg-bottom-bold {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: rgba(8, 18, 29, 1);
+  /* margin-block-end: 1rem; */
+}
+
+.bg-bottom-body {
+  color: rgba(103, 115, 126, 1);
+}
+
+.bg-bottom-content {
+  display: grid;
+  gap: 1rem;
+}
+
+.check-container {
+  display: grid;
+  gap: 1rem;
+}
+
+/* FOURTH SECTION ITERATION */
+.fourth-section {
+  display: grid;
+  gap: 2rem;
+  margin-block-end: 4rem;
+}
+
+.fourth-header {
+  font-weight: bold;
+  font-size: 1.625rem;
+  color: rgba(8, 18, 29, 1);
+}
+
+.blog-container-main {
+  display: flex;
+  gap: 2rem;
+}
+.blog-container {
+  display: grid;
+  gap: 2rem;
+  background-color: white;
+  border: 0.031rem solid rgba(232, 237, 242, 1);
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.blog-header {
+  color: rgba(8, 18, 29, 1);
+  font-weight: bold;
+  font-size: 2.125rem;
+  margin-block-end: 0.75rem;
+  width: 100%;
+}
+
+.blog-body {
+  color: rgba(103, 115, 126, 1);
+  margin-block-end: 0.75rem;
+  width: 100%;
+}
+
+.blog-image-container {
+  max-width: 36.25rem;
+}
+
+.blog-image {
+  width: 100%;
+}
+
