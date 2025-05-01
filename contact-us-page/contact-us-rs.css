@@ -1,0 +1,14 @@
+@media (max-width: 800px) {
+  .hero-header-text {
+    font-size: 1.25rem;
+  }
+
+  .second-section {
+    grid-template-columns: none;
+    gap: 3rem;
+  }
+
+  .input-container {
+    order: -1;
+  }
+}

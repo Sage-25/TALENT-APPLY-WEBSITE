@@ -1,0 +1,70 @@
+.faq {
+  color: rgba(9, 103, 210, 1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.faq:hover {
+  color: rgba(29, 122, 228, 0.8);
+}
+
+/* HERO SECTION ITERATION */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(9, 103, 210, 1);
+  padding-block: 5.25rem;
+  margin-block: 1.25rem 2.625rem;
+  border-radius: 1.5rem;
+}
+
+.hero-header-text {
+  font-size: 2.125rem;
+  color: white;
+  text-align: center;
+}
+
+/* SECOND SECTION ITERATION */
+.second-section {
+  display: grid;
+  gap: 1.5rem;
+  margin-block-end: 6.25rem;
+}
+
+.faq-main-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.faq-container {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem 1.25rem;
+  background-color: white;
+  border: 0.031rem solid rgba(232, 237, 242, 1);
+  border-radius: 1rem;
+}
+
+.faq-container-two {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  padding: 1.5rem 1.25rem;
+  background-color: white;
+  border: 0.031rem solid rgba(232, 237, 242, 1);
+  border-radius: 1rem;
+}
+
+.faq-text {
+  color: rgba(8, 18, 29, 1);
+}
+
+.faq-body {
+  font-size: 0.75rem;
+  color: rgba(55, 61, 67, 1);
+}
+
+
+

@@ -1,10 +1,10 @@
-.terms-and-conditions {
+.privacy-policy {
   color: rgba(9, 103, 210, 1);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
-.terms-and-conditions:hover {
+.privacy-policy:hover {
   color: rgba(29, 122, 228, 0.8);
 }
 
@@ -79,6 +79,11 @@ hr {
 
 .tc-body {
   color: rgba(55, 61, 67, 1);
+}
+
+.tc-body-two {
+  color: rgba(8, 18, 29, 1);
+  margin-block-start: 1rem;
 }
 
 .yellow-dot-main {
