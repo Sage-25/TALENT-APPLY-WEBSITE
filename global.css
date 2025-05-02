@@ -29,7 +29,7 @@ main {
 }
 
 section {
-  max-width: 80rem;
+  max-width: 70rem;
 }
 
 /* THIS IS FOR THE NAVIGATION BAR STYLING */
@@ -305,14 +305,14 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: top;
-  gap: 6.25rem;
+  gap: 5rem;
   margin-block-end: 6.25rem;
   margin-inline: 2rem;
-  max-width: 80rem;
+  max-width: 70rem;
 }
 
 .footer-logo-text {
-  max-width: 30rem;
+  max-width: 20rem;
 }
 
 .footer-main-text {

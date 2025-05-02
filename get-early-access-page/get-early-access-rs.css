@@ -1,3 +1,52 @@
 @media (max-width: 800px) {
+  .hero-section {
+    padding-block: 1.25rem;
+    margin-block-end: 3rem;
+  }
 
+  .hero-header-text {
+    font-size: 1.625rem;
+  }
+
+  .hero-header-text-container {
+    margin-block-end: 2rem;
+    margin-inline: 1rem;
+  }
+
+  .form-container {
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-inline: 1rem;
+  }
+
+  .inactive-button-container {
+    justify-content: center;
+  }
+
+  .inactive-button {
+    padding: 0.625rem 4.5rem;
+  }
+  
+
+  .fl-name-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .second-section {
+    grid-template-columns: none;
+    gap: 1.5rem;
+  }
+
+  .second-section-header {
+    font-size: 2.125rem;
+    line-height: 2.5rem;
+  }
+
+  .wtg-container{
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+  
+  
 }
