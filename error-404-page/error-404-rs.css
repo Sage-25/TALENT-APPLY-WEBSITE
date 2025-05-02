@@ -1,0 +1,25 @@
+@media (max-width: 800px) {
+  .main-section {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .four-o-four-text-container {
+    gap: 1rem;
+  }
+
+  .four-o-four-header {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .four-o-four-body {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .button-container {
+    display: grid;
+    justify-content: center;
+  }
+}

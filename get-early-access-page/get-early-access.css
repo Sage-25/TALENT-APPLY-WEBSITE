@@ -1,0 +1,38 @@
+.get-early-access {
+  color: rgba(9, 103, 210, 1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.get-early-access:hover {
+  color: rgba(29, 122, 228, 0.8);
+}
+
+/* HERO SECTION ITERATION */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(9, 103, 210, 1);
+  padding-block: 5.25rem;
+  margin-block: 1.25rem 2.625rem;
+  border-radius: 1.5rem;
+}
+
+.hero-header-text-container {
+  display: grid;
+  gap: 1rem;
+  margin-inline: 2.5rem;
+  max-width: 40rem;
+}
+
+.hero-header-text {
+  font-size: 2.125rem;
+  color: white;
+  text-align: center;
+}
+
+.hero-body-text {
+  text-align: center;
+  color: rgba(184, 210, 238, 1);
+}

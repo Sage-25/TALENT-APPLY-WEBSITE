@@ -1,0 +1,38 @@
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  /* margin-block-start: 13rem; */
+}
+
+.four-o-four-text-container {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.four-o-four-header {
+  font-weight: 800;
+  font-size: 3.75rem;
+  color: rgba(8, 18, 29, 1);
+}
+
+.four-o-four-body {
+  font-size: 1.25rem;
+  color: rgba(103, 115, 126, 1);
+}
+
+section {
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* .four-o-four-illustration-container {
+  max-width: 100%;
+} */
+
+.four-o-four-image {
+  width: 100%;
+}
+
