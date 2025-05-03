@@ -1,13 +1,11 @@
 .blog {
-  background-color: rgba(9, 103, 210, 1);
-  color: white;
+  color: rgba(9, 103, 210, 1);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 .blog:hover {
-  background-color: rgba(9, 103, 210, 0.8);
-  color: white;
+  color: rgba(9, 103, 210, 0.8);
 }
 
 /* FIRST SECTION ITERATION */
