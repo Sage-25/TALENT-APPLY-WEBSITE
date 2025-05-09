@@ -12,6 +12,12 @@ div {
   color: inherit;
 }
 
+:root {
+  --primary-colour: rgba(9, 103, 210, 1);
+  --secondary-colour: rgba(103, 115, 126, 1);
+  --background-colour: rgba(255, 255, 255, 1);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +25,7 @@ div {
 }
 
 .body {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: var(--background-colour);
 }
 
 main {
